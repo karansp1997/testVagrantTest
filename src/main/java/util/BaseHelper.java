@@ -5,6 +5,8 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 
 import java.io.FileReader;
+import java.util.ArrayList;
+import java.util.List;
 
 public class BaseHelper {
 
@@ -23,6 +25,16 @@ public class BaseHelper {
             e.printStackTrace();
         }
         return jsonArray;
+    }
+
+    public List<String> getPlayerAttribute(JSONArray teamData, String key) {
+        List<String> playerAttribute = new ArrayList<>();
+
+        for (int i = 0; i < teamData.size(); i++) {
+            JSONObject object = (JSONObject) teamData.get(i);
+            playerAttribute.add(object.get(key).toString());
+        }
+        return playerAttribute;
     }
 
 }
