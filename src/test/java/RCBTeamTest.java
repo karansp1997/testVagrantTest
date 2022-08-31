@@ -22,4 +22,10 @@ public class RCBTeamTest extends BaseHelper {
         assert(getForeignPlayerCount(countryList) == 4);
     }
 
+    @Test
+    public void validateWicketKeeperPresentInSquad() {
+        List playerRoleList = getPlayerAttribute(rcbPlayerData, "role");
+        assert(getWicketKeeperCount(playerRoleList)>=1);
+    }
+
 }

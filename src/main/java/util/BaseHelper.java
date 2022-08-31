@@ -47,4 +47,14 @@ public class BaseHelper {
         return overseasPlayerCount;
     }
 
+    public int getWicketKeeperCount(List playerRoleList) {
+        int wicketKeeperCount = 0;
+        for (Object cnt: playerRoleList) {
+            if(cnt.equals("Wicket-keeper")){
+                wicketKeeperCount++;
+            }
+        }
+        return wicketKeeperCount;
+    }
+
 }
