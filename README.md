@@ -12,3 +12,8 @@ Steps to initiate local setup:
 5. Observe the 'Run' tab that appears after the test and analyse the local test report.
 
 
+Test Execution Report (Local):
+![image](https://user-images.githubusercontent.com/31960006/187772072-20165422-4f19-459c-82cc-a534048302c8.png)
+
+
+
