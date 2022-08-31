@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-01T01:03:39 IST" name="RCBTeamTest" finished-at="2022-09-01T01:03:39 IST" duration-ms="46">
+    <groups>
+    </groups>
+    <test started-at="2022-09-01T01:03:39 IST" name="Command line test" finished-at="2022-09-01T01:03:39 IST" duration-ms="46">
+      <class name="RCBTeamTest">
+        <test-method is-config="true" signature="getTestData()[pri:0, instance:RCBTeamTest@2a798d51]" started-at="2022-09-01T01:03:39 IST" name="getTestData" finished-at="2022-09-01T01:03:39 IST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestData -->
+        <test-method signature="validateForeignPlayerCount()[pri:0, instance:RCBTeamTest@2a798d51]" started-at="2022-09-01T01:03:39 IST" name="validateForeignPlayerCount" finished-at="2022-09-01T01:03:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateForeignPlayerCount -->
+        <test-method signature="validateWicketKeeperPresentInSquad()[pri:0, instance:RCBTeamTest@2a798d51]" started-at="2022-09-01T01:03:39 IST" name="validateWicketKeeperPresentInSquad" finished-at="2022-09-01T01:03:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateWicketKeeperPresentInSquad -->
+      </class> <!-- RCBTeamTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- RCBTeamTest -->
+</testng-results>
