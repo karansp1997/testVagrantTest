@@ -37,4 +37,14 @@ public class BaseHelper {
         return playerAttribute;
     }
 
+    public int getForeignPlayerCount(List playerCountryList) {
+        int overseasPlayerCount=0;
+        for (Object cnt : playerCountryList){
+            if(!cnt.equals("India")){
+                overseasPlayerCount++;
+            }
+        }
+        return overseasPlayerCount;
+    }
+
 }

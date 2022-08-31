@@ -19,7 +19,7 @@ public class RCBTeamTest extends BaseHelper {
     @Test
     public void validateForeignPlayerCount() {
         List countryList = getPlayerAttribute(rcbPlayerData, "country");
-        System.out.println(countryList);
+        assert(getForeignPlayerCount(countryList) == 4);
     }
 
 }
