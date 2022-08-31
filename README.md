@@ -1,8 +1,14 @@
 Project Name: testVagrantTest
+
 IDE: Intellij 2022 Community version
+
 Java Version: 11.0.11
+
 Test Tool: TestNg
+
 Build tool: Maven
+
+
 
 Steps to initiate local setup:
 1. Clone the project from github and open the respective folder in the Itellij IDE (Preferred)
