@@ -10,7 +10,7 @@ import java.util.List;
 
 public class BaseHelper {
 
-    public JSONArray readTestData(String fileName) {
+    public JSONArray readTestData(String fileName, String key) {
         JSONParser jsonParser = new JSONParser();
         JSONObject jsonObject;
         JSONArray jsonArray = new JSONArray();
@@ -19,7 +19,7 @@ public class BaseHelper {
         try {
             Object fileObject = jsonParser.parse(new FileReader(fileName));
             jsonObject = (JSONObject) fileObject;
-            jsonArray = (JSONArray) jsonObject.get("player"); //Hardcoding key name due to limited problem statement (although not a good practice);
+            jsonArray = (JSONArray) jsonObject.get(key); //Hardcoding key name due to limited problem statement (although not a good practice);
         }
         catch (Exception e){
             e.printStackTrace();

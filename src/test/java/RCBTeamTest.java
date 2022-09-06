@@ -9,11 +9,12 @@ import java.util.List;
 public class RCBTeamTest extends BaseHelper {
 
     String testFileName = "src/main/java/data/rcb.json";
+    String testKey = "player";
     JSONArray rcbPlayerData = new JSONArray();
 
     @BeforeTest
     public void getTestData() {
-        rcbPlayerData = readTestData(testFileName);
+        rcbPlayerData = readTestData(testFileName, testKey);
     }
 
     @Test
