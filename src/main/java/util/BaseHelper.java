@@ -19,7 +19,7 @@ public class BaseHelper {
         try {
             Object fileObject = jsonParser.parse(new FileReader(fileName));
             jsonObject = (JSONObject) fileObject;
-            jsonArray = (JSONArray) jsonObject.get(key); //Hardcoding key name due to limited problem statement (although not a good practice);
+            jsonArray = (JSONArray) jsonObject.get(key);
         }
         catch (Exception e){
             e.printStackTrace();
